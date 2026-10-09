@@ -34,7 +34,7 @@ fun ProfileCard(
     name: String,
     phone: String? = null,
     detail: String,
-    nameFont: FontFamily = FontFamily.Default
+    nameFontFamily: FontFamily = FontFamily.Default
 ){
     Card(
         modifier = Modifier
