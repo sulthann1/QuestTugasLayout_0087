@@ -58,3 +58,42 @@ fun MainScreen() {
 
             Spacer(modifier = Modifier.height(8.dp))
 
+            ProfileCard(
+                backgroundColors = colorResource(id = R.color.bg_card_1),
+                name = stringResource(id = R.string.name_1),
+                detail = stringResource(id = R.string.info_1),
+                nameFontFamily = FontFamily.Cursive
+            )
+
+            ProfileCard(
+                backgroundColors = colorResource(id = R.color.bg_card_2),
+                name = stringResource(id = R.string.name_2),
+                phone = stringResource(id = R.string.phone_2),
+                detail = stringResource(id = R.string.address_2)
+            )
+
+            ProfileCard(
+                backgroundColors = colorResource(id = R.color.bg_card_3),
+                name = stringResource(id = R.string.name_3),
+                phone = stringResource(id = R.string.phone_3),
+                detail = stringResource(id = R.string.address_3)
+            )
+
+            ProfileCard(
+                backgroundColors = colorResource(id = R.color.bg_card_4),
+                name = stringResource(id = R.string.name_4),
+                phone = stringResource(id = R.string.phone_4),
+                detail = stringResource(id = R.string.address_4)
+            )
+        }
+
+        Text(
+            text = stringResource(id = R.string.footer_copyright),
+            fontSize = 12.sp,
+            color = Color.Black,
+            modifier = Modifier
+                .align(Alignment.BottomCenter)
+                .padding(bottom = 16.dp)
+        )
+    }
+}
