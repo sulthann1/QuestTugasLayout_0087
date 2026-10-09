@@ -33,3 +33,10 @@ fun MainScreen() {
             .fillMaxSize()
             .background(Color.White)
             .padding(16.dp)
+    ) {
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .align(Alignment.Center),
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.spacedBy(16.dp)
