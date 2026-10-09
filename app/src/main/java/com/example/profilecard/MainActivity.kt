@@ -40,3 +40,21 @@ fun MainScreen() {
                 .align(Alignment.Center),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.spacedBy(16.dp)
+        ) {
+
+            Text(
+                text = stringResource(id = R.string.title_main),
+                fontSize = 24.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Black
+            )
+
+            Text(
+                text = stringResource(id = R.string.subtitle_main),
+                fontSize = 14.sp,
+                fontWeight = FontWeight.Medium,
+                color = colorResource(id = R.color.text_subtitle)
+            )
+
+            Spacer(modifier = Modifier.height(8.dp))
+
