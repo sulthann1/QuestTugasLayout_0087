@@ -80,7 +80,11 @@ fun ProfileCard(
                     fontSize = 13.sp
                 )
             }
-
+            Image(
+                painter = painterResource(id = R.drawable.umy),
+                contentDescription = "Logo UMY",
+                modifier = Modifier.size(45.dp)
+            )
         }
     }
 }
