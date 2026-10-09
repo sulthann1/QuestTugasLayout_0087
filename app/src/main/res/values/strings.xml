@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Profile Card</string>
+
+    <string name="title_main">Teknologi Informasi</string>
+    <string name="subtitle_main">Universitas Muhammadiyah Yogyakarta</string>
+    <string name="footer_copyright">Copyright, 2026</string>
 </resources>
