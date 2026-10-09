@@ -52,7 +52,9 @@ fun ProfileCard(
                 modifier = Modifier.size(45.dp)
             )
             Column(
-
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(horizontal = 16.dp)
             ){
 
             }
